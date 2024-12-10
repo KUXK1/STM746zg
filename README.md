@@ -16,7 +16,7 @@ PWM zostało ustawione pod timer 3, który znajduje się pod zegarem magistrali 
   Counter liczy od 0 do 999, co daje łącznie 1000 cykli na okres.
 
 - **Auto-reload enable:**  
-  Zapobiega wydłużeniu lub skróceniu okresu w trakcie zmiany parametrów podczas trwania bieżącego okresu.
+  Zapobiega wydłużeniu lub skróceniu okresu w trakcie zmiany parametrów podczas trwania bieżącego okresu, poprzez zresetowaniu licznika.
 
 ### Obliczenia:
 Zegar wyjściowy PWM można obliczyć ze wzoru:
