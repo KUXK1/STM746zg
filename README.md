@@ -20,15 +20,11 @@ PWM zostało ustawione pod timer 3, który znajduje się pod zegarem magistrali 
 
 ### Obliczenia:
 Zegar wyjściowy PWM można obliczyć ze wzoru:
-
-\[
 Częstotliwość PWM =Zegar APB1\((Prescaler + 1) X (Counter + 1))
-\]
 
 Podstawiając:
-\[
 Częstotliwość PWM =72Mhz\((71 + 1) X (999 + 1))=1KHz
-\]
+
 
 ## Ważne informacje
 Timer 3 został skonfigurowany tak, aby generować sygnał PWM o częstotliwości 1 kHz. Implementacja szczegółów znajduje się w odpowiednich plikach kodu, co pozwala na łatwą modyfikację parametrów w razie potrzeby.
