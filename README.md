@@ -1,5 +1,5 @@
 <h1> STM746 </h1>
  
-Program do STM32F746ZG
-
-Funkcja znajdują się w <italic>"functions.h" "functions.c" </italic>
+<h2> PWM </h2>
+Ustawione pod timer 3 znajdujący się pod zegarem magistrali APB1
+Deklaracja znajduję się w functions.h a czysty kod w functions.c
