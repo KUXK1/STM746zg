@@ -7,10 +7,9 @@
 #include "main.h"
 #include "functions.h"
 
-void pwmsetup(int percent){
-	percent=percent*10;
-	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, percent);
-	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, percent);
-	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3, percent);
-	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_4, percent);
+extern TIM_HandleTypeDef htim3;
+
+void pwmsetup(int percent, uint32_t channel) {
+    percent = percent * 10;
+    __HAL_TIM_SET_COMPARE(&htim3, channel, percent);
 }

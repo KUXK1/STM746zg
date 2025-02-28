@@ -108,7 +108,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  pwmsetup(100, TIM_CHANNEL_1);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
