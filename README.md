@@ -27,7 +27,7 @@ Częstotliwość PWM = 72 MHz / ((71 + 1) * (999 + 1)) = 1 kHz
 ```
 
 ## Przetwarzanie sygnałów z czujników  
-Aktualnie pracujemy nad **przetwarzaniem sygnałów z wielu czujników i urządzeń**, skupiając się na ich **filtracji oraz eliminacji szumów**. Celem tego zadania jest uzyskanie **czystych i precyzyjnych danych** wejściowych, które będą podstawą dalszej analizy i sterowania.  
+Aktualnie pracuje nad **przetwarzaniem sygnałów z wielu czujników i urządzeń**, skupiając się na ich **filtracji oraz eliminacji szumów**. Celem tego zadania jest uzyskanie **czystych i precyzyjnych danych** wejściowych, które będą podstawą dalszej analizy i sterowania.  
 
 ### Kluczowe aspekty realizowanego zadania:  
 - **Odbiór danych z wielu źródeł**, w tym czujników analogowych i cyfrowych.  
