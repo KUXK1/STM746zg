@@ -1,3 +1,4 @@
+# Zawieszony na czas bliżej nie określony
 # STM746 - PWM & Przetwarzanie Sygnałów
 
 ## Konfiguracja PWM  
